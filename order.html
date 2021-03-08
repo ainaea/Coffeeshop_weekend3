@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Softmeals Chocolate & Coffee Shop  </title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <section class="container">
+            <a class="navbar-brand" href="#"><h3>Softmeals Chocolate & Coffee Shop </h3> </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="#">Order <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html" >Contact us</a>
+                </li>
+              </ul>
+            </div>
+        </section>
+    </nav>
+
+    <div class="container-fluid home px-0" id="order">
+        <div class="content container-fluid">
+            <section class="container">
+                <div class="row">
+                  
+                    <div class="col-md-6">
+                      <table>
+                        <tr>
+                          <th>Prince list</th>
+                        </tr>
+                        <tr>
+                          <td>Black Coffee</td>
+                          <td>N500</td>
+                        </tr>
+                        <tr>
+                          <td>Black and Creamy Coffee</td>
+                          <td>N750</td>
+                        </tr>
+                        <tr>
+                          <td>Black and Creamy Coffee with Chocolate</td>
+                          <td>N1000</td>
+                        </tr>
+                      </table>
+                    </div>
+                    <div class="col-md-6">
+                      <form action="process" method="post">
+                        <div class="row">
+                          <div class="col">
+                            <input type="text" class="form-control" placeholder="Your name" aria-label="Name" required>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col">
+                            <textarea name="add" id="add" cols="75" rows="3" placeholder="Your address"  required></textarea>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col">
+                            <input type="number" class="form-control" placeholder="Contact Number" aria-label="Name"  required>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col">
+                            <!-- <option value="foods">
+                              helo
+                            </option>
+                            <input type="text" class="form-control" placeholder="Your name" aria-label="Name"> -->
+                            <select name="food" id="food">
+                              <option value="coffee">Black Coffee</option>
+                              <option value="coffee">Creamy Coffee</option>
+                              <option value="coffee">Creamy with Chocolate Coffee</option>
+                            </select>
+
+
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col">
+                            <button type="submit">Place Order</button>
+                          </div>
+                        </div>
+                        <p>By Odering, you agree to our <a href="#">Terms and Conditions</a></p>	
+                        
+                      </form>
+          
+                    </div>
+                </div>                            
+                                
+            </section>
+        </div>
+        
+    </div>
+
+    <!-- <h1 class="bg-primary">this here</h1> -->
+
+    <script>
+       
+    </script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/tasks.js"></script>
+    <script src="js/jquery-3.5.1.min.js"></script>
+</body>
+</html>
